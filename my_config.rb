@@ -9,3 +9,4 @@ $cfg_consumer_secret = "456rty456rty456rty456rty456rty456rty"
 
 # YOUR REQUEST BODY GOES INTO THIS VARIABLE
 $my_settings = "{\"startDate\":20190615,\"endDate\":20190616,\"attributes\":[{\"id\":\"publisherCurrency\"},{\"id\":\"publisherSiteName\"},{\"id\":\"publisherAdUnitName\"}],\"metrics\":[{\"id\":\"marketRequests\"},{\"id\":\"exchangeFills\"},{\"id\":\"marketImpressions\"},{\"id\":\"marketPublisherRevenue\"}]}"
+$date_range = {\"attributes\":[{\"id\":\"publisherCurrency\"},{\"id\":\"publisherSiteName\"},{\"id\":\"publisherAdUnitName\"}],\"metrics\":[{\"id\":\"marketRequests\"},{\"id\":\"exchangeFills\"},{\"id\":\"marketImpressions\"},{\"id\":\"marketPublisherRevenue\"}]}

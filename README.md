@@ -23,6 +23,9 @@ $ sudo gem install json</code>
 ### 4. Edit 'my_config.rb' file
 - Place your credentials into the 'cfg' variables, and your request body in 'my_settings' variable.
 You'll find some requests at http://openxcorporate-ui3.openxenterprise.com/data/1.0/ods.html
+
+If you want to know, what is the available date range for selected report, please adjust the 'date_range' variable to reflect 'my_settings"
+
 #### NOTE THAT THE REQUEST BODY HAS TO BE AN ESCAPED JSON STRING
 (you can use this online tool https://www.freeformatter.com/json-escape.html to escape your strings)
 
@@ -30,5 +33,9 @@ You'll find some requests at http://openxcorporate-ui3.openxenterprise.com/data/
 - 'pull_fields.rb' to receive all available fields
 <code>$ruby pull_fields.rb</code>
 
+- 'date_range.rb' to check what is the available date range for selected report (earliest possible StartData, closest possible EndDate)
+<code>$ruby date_range.rb</code>
+
 - 'pull_report.rb' to receive your report
 <code>$ruby pull_report.rb</code>
+
