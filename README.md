@@ -9,14 +9,14 @@ For OpenX API access using the Ruby API Client you will need:
 
 #### To use Ruby API Client:
 
-### 2 Set up your environment. Two necessary libraries that you will need are:
+### 2 Set up your environment. There are two libraries that you will need are:
 
 <code>$ sudo gem install oauth </code>
 
 <code>$ sudo gem install json</code>
 
 
-### 3. Now, being in your virtual workspace download the library into your working directory:
+### 3. Now, being in your virtual workspace, download the library into your working directory:
 
 <code>$ git clone https://github.com/openx/ODS-Ruby-API-Client.git</code>
 
@@ -36,7 +36,7 @@ You'll find some requests at http://openxcorporate-ui3.openxenterprise.com/data/
 
 <code>$ruby pull_fields.rb</code>
 
-- 'date_range.rb' to check what is the available date range for selected report (earliest possible StartData, closest possible EndDate)
+- 'date_range.rb' to check what is the available date range for selected report (earliest possible StartDate, closest possible EndDate)
 
 <code>$ruby date_range.rb</code>
 
