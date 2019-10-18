@@ -15,7 +15,7 @@ For OpenX API access using the Ruby API Client you will need:
 
 <code>$ sudo gem install json</code>
 
-<code>$ gem install awesome_print</code>
+<code>$ sudo gem install awesome_print</code>
 
 
 ### 3. Now, being in your virtual workspace, download the library into your working directory:
