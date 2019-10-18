@@ -9,11 +9,13 @@ For OpenX API access using the Ruby API Client you will need:
 
 #### To use Ruby API Client:
 
-### 2 Set up your environment. There are two libraries that you will need are:
+### 2 Set up your environment. There are three libraries that you will need are:
 
 <code>$ sudo gem install oauth </code>
 
 <code>$ sudo gem install json</code>
+
+<code>$ gem install awesome_print</code>
 
 
 ### 3. Now, being in your virtual workspace, download the library into your working directory:
