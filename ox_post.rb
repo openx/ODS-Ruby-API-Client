@@ -11,12 +11,12 @@ consumer_key = $cfg_consumer_key
 consumer_secret = $cfg_consumer_secret
 realm = $cfg_realm
 site_url = $cfg_domain
-apipath = $cfg_ods_apipath
+apipath = $cfg_ox_apipath
 
 ox3 = OX3APIClient.new(email, password, site_url, consumer_key, consumer_secret, realm, apipath)
 
-settings = $date_range
+settings = $my_post_settings
 
-json = ox3.post('/date-range', settings)
+json = ox3.post('/site/', settings)
 
 ap(JSON.parse(json))
